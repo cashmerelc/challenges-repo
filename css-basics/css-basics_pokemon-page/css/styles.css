@@ -59,6 +59,14 @@ h2 {
 
 section {
   /* your solution */
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-left: 5px orange solid;
+}
+
+.favourites {
+  border-left: 5px gold solid;
 }
 
 /* ------- Headings Part 2 ------- */
