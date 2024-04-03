@@ -100,6 +100,12 @@ section.biography {
   height: 50px;
 }
 
+.aboutme {
+  position: absolute;
+  top: 200px;
+  margin-right: 50px;
+}
+
 footer {
   position: fixed;
   bottom: 0;
