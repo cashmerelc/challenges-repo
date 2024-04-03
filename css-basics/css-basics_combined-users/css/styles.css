@@ -83,6 +83,21 @@ li {
   To do so, add a "debug" class to the html element.
 */
 
+aside .user {
+  max-width: 250px;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+aside .user .name {
+  font-size: 16px;
+}
+
+aside .user .bio {
+  font-size: 12px;
+  margin: 6px 0;
+}
+
 /*
   Part 2
 
