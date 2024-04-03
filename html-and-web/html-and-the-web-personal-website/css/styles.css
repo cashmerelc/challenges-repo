@@ -1,9 +1,9 @@
 * {
-  background-color: #496989;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
+  background-color: #496989;
   margin: 0;
   position: relative;
 }
@@ -38,6 +38,10 @@ section h1 {
   top: 0;
 }
 
+.contact-info {
+  position: relative;
+}
+
 .contact-info figure {
   text-align: center;
 }
@@ -49,4 +53,26 @@ section h1 {
 .contact-info figcaption {
   padding-top: 15px;
   color: #a8cd9f;
+}
+
+.interests {
+  color: #496989;
+  position: absolute;
+  left: 100px;
+  background-color: #a8cd9f;
+  border: 2px solid #58a399;
+  width: 30%;
+  height: 130px;
+  padding: 25px;
+}
+
+.contact-details {
+  color: #496989;
+  position: absolute;
+  right: 100px;
+  background-color: #a8cd9f;
+  border: 2px solid #58a399;
+  width: 30%;
+  height: 130px;
+  padding: 25px;
 }
