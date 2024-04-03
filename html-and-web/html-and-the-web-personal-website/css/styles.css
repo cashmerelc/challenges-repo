@@ -76,3 +76,31 @@ section h1 {
   height: 130px;
   padding: 25px;
 }
+
+section.biography {
+  position: relative;
+  text-align: center;
+  color: #a8cd9f;
+}
+
+.biography .github {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+.biography .linkedin {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.biography img {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
