@@ -9,6 +9,7 @@
   --color-primary: #8236ff;
   --color-white: #ffffff;
   --border-radius-small: 4px;
+  --letter-spacing-small: 0.025em;
 }
 
 body {
