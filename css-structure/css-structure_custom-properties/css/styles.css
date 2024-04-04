@@ -8,6 +8,7 @@
   --color-light-black: #303030;
   --color-primary: #8236ff;
   --color-white: #ffffff;
+  --border-radius-small: 4px;
 }
 
 body {
