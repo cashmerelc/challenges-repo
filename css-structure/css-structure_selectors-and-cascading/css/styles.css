@@ -105,8 +105,7 @@ footer .text {
 }
 
 /* 11. These styles should apply to all lists in the main content */
-FIX_ME {
-  outline: 2px dashed red;
+main .list {
   padding: 1rem 2rem;
   background: #caced2;
 }
