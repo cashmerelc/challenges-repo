@@ -49,8 +49,7 @@ nav li {
 /* -------------------------------------------------------- */
 
 /* 1. These styles should apply to the headline */
-FIX_ME {
-  outline: 2px dashed red;
+header {
   font-size: 2rem;
   margin: 0 2rem 0 0;
   color: #2673bb;
