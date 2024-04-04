@@ -5,9 +5,9 @@
 }
 
 :root {
-  --color-light-black: rgb(48 48 48 / 100%);
+  --color-light-black: #303030;
   --color-primary: #8236ff;
-  --color-white: white;
+  --color-white: #ffffff;
 }
 
 body {
