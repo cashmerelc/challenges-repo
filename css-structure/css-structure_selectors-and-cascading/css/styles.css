@@ -56,8 +56,7 @@ header {
 }
 
 /* 2. These styles should apply to all links */
-FIX_ME {
-  outline: 2px dashed red;
+a {
   color: #ff00e6;
 }
 
