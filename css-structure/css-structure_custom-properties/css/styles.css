@@ -27,13 +27,13 @@ h1 {
   color: var(--color-white);
   line-height: 1.4;
   margin: 0;
-  letter-spacing: 0.025em;
+  letter-spacing: var(--letter-spacing-small);
   text-transform: uppercase;
   padding-block: 16px;
 }
 
 h2 {
-  letter-spacing: 0.025em;
+  letter-spacing: var(--letter-spacing-small);
 }
 
 strong {
@@ -98,7 +98,7 @@ mark {
   background-color: var(--color-primary);
   color: #ffffff;
   border-radius: var(--border-radius-small);
-  letter-spacing: 0.025em;
+  letter-spacing: var(--letter-spacing-small);
 }
 
 ::selection {
