@@ -264,5 +264,55 @@ width, etc. */
 
 /* Media Query Desktop */
 /* --- */
-/* Replace this comment with your media query. */
+@media screen and (min-width: 1200px) {
+  :root {
+    /* Variable to set page width */
+    --desktop-page-width: 55%;
+    --header-brand: 2.75rem;
+    --header-brand-line-height: 3.5rem;
+    --header-text: 1rem;
+    --header-text-line-height: 1rem;
+    --regular-text: 0.75rem;
+    --regular-line-height: 0.75rem;
+  }
+
+  body {
+    width: var(--desktop-page-width);
+    margin: auto;
+  }
+
+  .main-header,
+  .navbar {
+    width: var(--desktop-page-width);
+  }
+
+  .main-content {
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .card-section {
+    /* gap: 0; */
+  }
+
+  .card-section article,
+  .card-section p {
+    width: 30%;
+  }
+
+  .card-section p {
+    align-self: flex-start;
+  }
+
+  .card-section article:first-child {
+    width: 100%;
+    height: 400px;
+    box-shadow: none;
+  }
+
+  .card-section article,
+  .card-section p {
+    width: 475px;
+  }
+}
 /* --- */
