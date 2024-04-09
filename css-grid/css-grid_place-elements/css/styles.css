@@ -68,10 +68,12 @@ body {
 
 .element-1 {
   /* Add styles here */
+  grid-area: 2 / 3 / 3 / 5;
 }
 
 .element-2 {
   /* Add styles here */
+  grid-area: 2 / 5 / 3 / 11;
 }
 
 .element-5 {
@@ -84,6 +86,8 @@ body {
 
 .element-spiced {
   /* Add styles here */
+  order: -1;
+  grid-area: 1 / span 10;
 }
 
 .element-20 {
