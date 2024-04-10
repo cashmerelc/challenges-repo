@@ -68,7 +68,8 @@ body {
 
 .element-1 {
   /* Add styles here */
-  grid-area: 2 / 3 / 3 / 5;
+  grid-column-start: 3;
+  grid-column-end: 5;
 }
 
 .element-2 {
@@ -78,18 +79,22 @@ body {
 
 .element-5 {
   /* Add styles here */
+  grid-area: 3 / 3 / 5 / 5;
 }
 
 .element-8 {
   /* Add styles here */
+  grid-area: 3 / 7 / 5 / 8;
 }
 
 .element-spiced {
   /* Add styles here */
-  order: -1;
-  grid-area: 1 / span 10;
+  order: -2;
+  grid-column-start: 1;
+  grid-column-end: 11;
 }
 
 .element-20 {
   /* Add styles here */
+  grid-area: 6 / 1 / 8 / 2;
 }
