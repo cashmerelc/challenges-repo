@@ -33,6 +33,8 @@ multiplyButton.addEventListener("click", () => {
 
 divideButton.addEventListener("click", () => {
   // 4. Divide the two operands and store the result in a variable. Log the variable's value to the console.
+  let result = operand1 / operand2;
+  console.log(result);
 });
 
 exponentButton.addEventListener("click", () => {
