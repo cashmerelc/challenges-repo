@@ -10,6 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+let myTitle = "Hello World!";
+let myText = "This is my first post.";
+let numberOfLikes = 1;
+let postAuthor = "Derek";
+let isReported = false;
 
 // --^-- write your code here --^--
 
@@ -18,5 +23,14 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+
+console.log("Title: " + myTitle);
+console.log("Text: " + myText);
+console.log("Likes: " + numberOfLikes);
+console.log("Author: " + postAuthor);
+console.log("Reported: " + isReported);
+
+numberOfLikes++;
+console.log("Likes: " + numberOfLikes);
 
 // --^-- write your code here --^--
