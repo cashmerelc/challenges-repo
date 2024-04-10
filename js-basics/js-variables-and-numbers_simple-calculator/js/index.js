@@ -80,6 +80,7 @@ increaseByOneButton.addEventListener("click", () => {
 
 increaseByFiveButton.addEventListener("click", () => {
   // 8. Increase the value of "operand1" by 5. Log the new value to the console.
+  console.log((newOperand1 += 5));
 });
 
 decreaseByOneButton.addEventListener("click", () => {
