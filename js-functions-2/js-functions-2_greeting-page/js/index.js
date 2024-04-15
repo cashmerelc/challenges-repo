@@ -34,7 +34,7 @@ function getGreeting() {
   if (currentTime >= 19 && currentTime <= 22) {
     return "Good Evening";
   }
-  if (currentTime >= 23 && currentTime <= 5) {
+  if (currentTime >= 23 || currentTime <= 5) {
     return "Good Night";
   }
 }
@@ -42,21 +42,12 @@ function getGreeting() {
 function getDayColor() {
   let currentDay = new Date().getDay();
 
-  switch (currentDay) {
-    case "monday":
-      return "darkgray";
-    case "tuesday":
-      return "lightblue";
-    case "wednesday":
-      return "lightblue";
-    case "thursday":
-      return "lightblue";
-    case "friday":
-      return "lightblue";
-    case "saturday":
-      return "hotpink";
-    case "sunday":
-      return "hotpink";
+  if (currentDay == 1) {
+    return "darkgray";
+  } else if (currentDay >= 2 && currentDay <= 5) {
+    return "lightblue";
+  } else {
+    return "hotpink";
   }
 }
 
