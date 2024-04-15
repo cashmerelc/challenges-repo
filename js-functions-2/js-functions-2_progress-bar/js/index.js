@@ -28,9 +28,7 @@ function calculateScrollPercentage(scrollPosition) {
   let webpageHeight = document.body.clientHeight;
   let windowBottomPosition = webpageHeight - windowHeight;
 
-  progressBar.style.width =
-    (1 - (windowBottomPosition - scrollPosition) / windowBottomPosition) * 100 +
-    "%";
+  progressBar.style.width = (scrollPosition / windowBottomPosition) * 100 + "%";
 }
 
 document.addEventListener("scroll", (event) => {
