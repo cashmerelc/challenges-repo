@@ -21,7 +21,12 @@ select.name = "languages";
 main.append(select);
 
 // --v-- write/change code here --v--
-
+for (const key in languages) {
+  const newOption = document.createElement("option");
+  newOption.text = languages[key];
+  newOption.value = key;
+  select.append(newOption);
+}
 // --^-- write/change code here --^--
 
 // Part 2: Creating a Navigation Bar
