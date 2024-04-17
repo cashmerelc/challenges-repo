@@ -9,6 +9,9 @@ function renderStars(filledStars) {
   //--v-- your code here --v--
   for (let i = 1; i <= 5; i++) {
     const newStar = document.createElement("img");
+    newStar.addEventListener("click", () => {
+      renderStars(i);
+    });
     if (i <= filledStars) {
       newStar.src = "../assets/star-filled.svg";
       starContainer.append(newStar);
@@ -20,4 +23,4 @@ function renderStars(filledStars) {
   //--^-- your code here --^--
 }
 
-renderStars(1);
+renderStars(0);
