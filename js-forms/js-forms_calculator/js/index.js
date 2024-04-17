@@ -26,6 +26,18 @@ form.addEventListener("submit", (event) => {
 
   // --v-- write your code here --v--
 
+  if (form.addition.checked) {
+    result = add(Number(form.numberA.value), Number(form.numberB.value));
+  }
+  if (form.subtraction.checked) {
+    result = subtract(form.numberA.value, form.numberB.value);
+  }
+  if (form.multiplication.checked) {
+    result = multiply(form.numberA.value, form.numberB.value);
+  }
+  if (form.division.checked) {
+    result = divide(form.numberA.value, form.numberB.value);
+  }
   // --^-- write your code here --^--
 
   resultOutput.textContent = result;
