@@ -5,12 +5,12 @@ export default function App() {
 }
 
 function Button({ color, disabled, text }) {
+  function handleClick() {
+    return console.log("You clicked");
+  }
+
   return (
-    <button
-      onClick={() => alert("You clicked!")}
-      style={{ color: color }}
-      disabled={disabled}
-    >
+    <button onClick={handleClick} style={{ color: color }} disabled={disabled}>
       {text}
     </button>
   );
