@@ -1,8 +1,18 @@
 import "./App.css";
+import { useState } from "react";
 
 export default function App() {
-  let code = "?";
+  let [code, setCode] = useState("?");
 
+  function handleClick(emoji) {
+    if (emoji === "?") {
+      setCode(emoji);
+    } else if (code === "?") {
+      setCode(emoji);
+    } else {
+      setCode(code + emoji);
+    }
+  }
   const validCode = "🐡🐠🐋";
 
   return (
@@ -11,6 +21,7 @@ export default function App() {
         <button
           type="button"
           onClick={() => {
+            handleClick("🐡");
             console.log("Update Code!");
           }}
         >
@@ -21,6 +32,7 @@ export default function App() {
         <button
           type="button"
           onClick={() => {
+            handleClick("🐋");
             console.log("Update Code!");
           }}
         >
@@ -31,6 +43,7 @@ export default function App() {
         <button
           type="button"
           onClick={() => {
+            handleClick("🐠");
             console.log("Update Code!");
           }}
         >
@@ -43,6 +56,7 @@ export default function App() {
       <button
         type="button"
         onClick={() => {
+          handleClick("?");
           console.log("Reset Code!");
         }}
       >
