@@ -6,7 +6,12 @@ function Card({ user }) {
     <article className="card">
       <h2>{user.name}</h2>
       <ul className="card__taglist">
-        <Tag tag={user.roles[0]} />
+        {user.roles.map((role) => (
+          <Tag
+            tag={role}
+            className={role === "admin" ? "tag--highlight" : "tag"}
+          />
+        ))}
       </ul>
       <p>{user.about}</p>
       <Button>edit</Button>
